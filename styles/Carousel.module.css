@@ -1,0 +1,64 @@
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 800px;
+}
+
+.carouselImage {
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.carouselCaption {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    padding: 20px;
+    height: 110px; /* Increase the vertical size of the caption */
+}
+
+.carousel .carousel-indicators {
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    border-color: #000;
+}
+
+.carousel .carousel-indicators {
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .carousel-indicators button {
+    background-color: #000;
+    border: 1px solid black;
+    opacity: 1;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: black;
+    border-color: black;
+}
+
+.productTitle {
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 400; /* Reduce the font weight */
+    justify-content: center;
+    text-align:center;
+}
+
+.productPrice {
+    font-size: 25px; /* Adjust font size as needed */
+    color: #000;
+    justify-content: center;
+}
+
+.carousel .carousel-indicators li {  background-color: #f00; }
+.carousel .carousel-indicators li.active { background-color: #f00; }

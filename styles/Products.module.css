@@ -1,0 +1,9 @@
+.productsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productImage {
+    width: 50px;
+    height: auto;
+}

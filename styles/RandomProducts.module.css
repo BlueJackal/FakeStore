@@ -1,0 +1,31 @@
+.productsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.card img {
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+}
